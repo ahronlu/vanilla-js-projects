@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Workouts</title>
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Workouts</h1>
+        <div>
+            <button id="endWorkoutButton" class="mdc-button mdc-button--raised"><span class="mdc-button__ripple"></span> End</button>
+            <h2 class="duration"></h2>
+        </div>
+    </header>
+    <main>
+        <div id="backdrop">
+            <div class="endWorkout">
+                <h2>End Workout</h2>
+                <button class="mdc-button mdc-button--raised" id="cancelEnd">Cancel</button>
+                <button class="mdc-button mdc-button--raised">Discard</button>
+                <button id="saveWorkout" class="mdc-button mdc-button--raised">Save</button>
+            </div>
+        </div>
+    </main>
+    <script src="routine.js"></script>
+    <!-- <footer><img src="logo.png" /></footer> -->
+</body>
+</html>
